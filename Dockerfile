@@ -9,4 +9,4 @@ COPY . .
 
 RUN pip install -r ./analytics/requirements.txt
 
-CMD python app.py
+CMD python ./analytics/app.py
