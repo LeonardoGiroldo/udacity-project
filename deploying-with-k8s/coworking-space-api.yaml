@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: coworking-space-api
-        image: 099331234388.dkr.ecr.us-east-1.amazonaws.com/udacity-ecr:6
+        image: 099331234388.dkr.ecr.us-east-1.amazonaws.com/udacity-ecr:7
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
