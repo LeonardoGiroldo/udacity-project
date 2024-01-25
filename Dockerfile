@@ -9,4 +9,4 @@ COPY . .
 
 RUN pip install -r ./analytics/requirements.txt
 
-CMD python ./analytics/app.py
+ENTRYPOINT [ "python",  "./analytics/app.py"]
