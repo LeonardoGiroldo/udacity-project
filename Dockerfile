@@ -7,6 +7,8 @@ RUN apt update -y && apt install -y build-essential libpq-dev
 
 COPY . .
 
+RUN chmod +x ./analytics/app.py
+
 # Upgrade Flask and Werkzeug
 # RUN pip install --upgrade Flask Werkzeug
 
